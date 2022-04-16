@@ -1,47 +1,25 @@
-
-import styles from "./Layout.module.css"
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-import { SliderData } from "../SliderData/SliderData";
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
-import { useEffect, useState } from "react";
+import Page1 from "../Page1/Page1";
+import Page2 from "../Page2/Page2";
+import Page3 from "../Page3/Page3";
+import Page4 from "../Page4/Page4";
+import Page5 from "../Page5/Page5";
+import Page6 from "../Page6/Page6";
+import Page7 from "../Page7/Page7";
+import Page8 from "../Page8/Page8";
 
 const Layout=()=>{
-    const [current,setCurrent] = useState(0);
-    const length=SliderData.length;
-    if(!Array.isArray(SliderData)||SliderData.length<=0){
-        return null;
-    }
-    const nextSlide=()=>{
-        setCurrent(current===length-1?0:current+1)
-    }
-    const prevSlide=()=>{
-        setCurrent(current===0?length-1:current-1)
-    }
-    useEffect(()=>{
-        const a=setInterval(() => {
-            nextSlide()
-        }, 5000);
-        return ()=>clearInterval(a)
-    },[current])
-
     return(
-        <div className={styles.layout}>
-            <div className={styles.contain}>
-                <ArrowCircleLeftIcon className={styles.arrleft} onClick={prevSlide}/>
-                <ArrowCircleRight className={styles.arrright} onClick={nextSlide}/>
-                {SliderData.map((slide,index)=>(
-                    <div className={styles.contain_img} key={index}>
-                        {index===current && <img src={slide.img} className={styles.img}/>}
-                    </div>
-                ))}
-                <div className={styles.contain_dot}>
-                     {Array.from({length:SliderData.length}).map((item,index)=>(
-                         <div className={index===current?styles.dot:styles.dot_active} onClick={()=>setCurrent(index)} ></div>
-                     ))}
-                </div>
-            </div>
+        <div>
+            <Page1/>
+            <Page2/>
+            <Page3/>
+            <Page4/>
+            <Page5/>
+            <Page6/>
+            <Page7/>
+            <Page8/>
         </div>
+
     )
 }
 export default Layout;

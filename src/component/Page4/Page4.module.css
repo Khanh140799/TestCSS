@@ -1,0 +1,189 @@
+.page{
+    width: 100vw;
+    background-color: rgb(142, 182, 202); 
+    margin-left: -2rem;
+    text-align: center;
+}
+.contain{
+    width: 60vw;
+    margin: auto;
+}
+.product{
+    display: flex;
+}
+.ocean,
+.mountain,
+.forest{
+    width: 18vw;
+    margin-top: 5rem;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: white;
+    margin-bottom: 5rem;
+}
+.ocean_price,
+.mountain_price,
+.forest_price{
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -3rem;
+    margin-left: 9rem;
+}
+.ocean_price{
+    background-color: white;
+}
+.mountain_price{
+    background-color:rgb(44, 46, 61) ;
+}
+.forest_price{
+    background-color: white;
+}
+
+.ocean_place,
+.mountain_place,
+.forest_place{
+    height: 12rem;
+    font-size: 36px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 5;
+    background-color: cornflowerblue;
+}
+.ocean_title,
+.mountain_title,
+.forest_title{
+    height: 5rem;
+}
+.ocean_t1,
+.mountain_t1,
+.forest_t1{
+    font-size: 24px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    line-height: 2.5;
+}
+.ocean_t2,
+.mountain_t2,
+.forest_t2{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    margin-top: -1rem;
+}
+.ocean_l1,
+.ocean_l2,
+.ocean_l3,
+.ocean_l4,
+.ocean_l5,
+.mountain_l1,
+.mountain_l2,
+.mountain_l3,
+.mountain_l4,
+.mountain_l5,
+.forest_l1,
+.forest_l2,
+.forest_l3,
+.forest_l4,
+.forest_l5{
+    height: 3rem;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    line-height: 3;
+}
+.ocean_l1,
+.ocean_l5,
+.ocean_l3,
+.mountain_l1,
+.mountain_l5,
+.mountain_l3,
+.forest_l1,
+.forest_l5,
+.forest_l3{
+    background-color:rgb(244, 246, 247) ;
+}
+.ocean_btn,
+.mountain_btn,
+.forest_btn{
+    margin: 2.5rem 0;
+    width: 10rem;
+    height: 3rem;
+    border-style: solid;
+    border-width: 1px;
+}
+.ocean_btn{
+    border-color:rgb(33, 150, 247) ;
+    font-size: 19px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 2;
+    color:rgb(33, 150, 247) ;
+}
+.mountain_btn{
+    border-color:rgb(215, 68, 152) ;
+    font-size: 19px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 2;
+    color: rgb(215, 68, 152);
+}
+.forest_btn{
+    border-color:rgb(50, 173, 30) ;
+    font-size: 19px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    line-height: 2;
+    color: rgb(50, 173, 30);
+}
+.ocean_p1,
+.mountain_p1,
+.forest_p1{
+    font-size: 32px;
+    font-family: "SourceSansPro";
+    color: rgb(33, 150, 247);
+    line-height: 2.5;
+}
+.ocean_p2,
+.mountain_p2,
+.forest_p2{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    margin-top: -1.5rem;
+}
+.mountain_p1{
+    color: rgb(215, 68, 152);
+}
+.forest_p1{
+    color: rgb(50, 173, 30);
+}
+.ocean_btn:hover{
+    background-color: rgb(33, 150, 247);
+    color: white;
+    cursor: pointer;
+}
+.mountain_btn:hover{
+    background-color: rgb(215, 68, 152);
+    color: white;
+    cursor: pointer;
+}
+.forest_btn:hover{
+    background-color: rgb(50, 173, 30);
+    color:white  ;
+    cursor: pointer;
+}
+.mountain_a{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(182, 198, 201);
+    margin-top: -5rem;
+    margin-left: 6rem;
+    position: absolute;
+}

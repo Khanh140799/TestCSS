@@ -1,0 +1,239 @@
+.page{
+    width: 100vw;
+    margin-left: -2rem;
+    background-color: white;
+    text-align: left;
+    background-color: rgb(232, 237, 235);
+}
+.contain{
+    width: 60vw;
+    margin:auto;
+}
+.product{
+    display:flex;
+    text-align: center;
+}
+.newborn,
+.kids,
+.teen,
+.adult{
+    width: 14vw;
+    margin:5rem 0.5vw auto 0.5vw;
+    background-color: rgb(57, 61, 80);
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    margin-bottom: 5rem;
+}
+.newborn_head,
+.kids_head,
+.teen_head,
+.adult_head{
+    height: 15rem;
+}
+.newborn_name,
+.kids_name,
+.teen_name,
+.adult_name{
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 6;
+}
+.newborn_p1,
+.kids_p1,
+.teen_p1,
+.adult_p1{
+    font-size: 65px;
+    font-family: "Montserrat";
+    color: rgb(108, 124, 134);
+    text-transform: uppercase;
+    margin-top: -2rem;
+}
+.newborn_p2,
+.kids_p2,
+.teen_p2,
+.adult_p2{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 213, 79);
+}
+.newborn_detail,
+.kids_detail,
+.teen_detail,
+.adult_detail{
+    text-align: center;
+}
+.newborn_d1,
+.newborn_d2,
+.kids_d1,
+.kids_d2,
+.teen_d1,
+.teen_d2,
+.adult_d1,
+.adult_d2{
+    width: 7vw;
+    background-color: rgb(255, 255, 255);
+    height: 8rem;
+}
+.a{display: flex;}
+.newborn_d1,
+.kids_d1,
+.teen_d1,
+.adult_d1{
+    border-top-right-radius: 4rem;
+}
+.newborn_d2,
+.kids_d2,
+.teen_d2,
+.adult_d2{
+    border-top-left-radius: 4rem;
+}
+.newborn_t1,
+.kids_t1,
+.teen_t1,
+.adult_t1{
+    font-size: 24px;
+    font-family: "SourceSansPro";
+    color: rgb(0, 188, 212);
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 4.5rem;
+}
+.newborn_t2,
+.kids_t2,
+.teen_t2,
+.adult_t2{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(220, 215, 229);
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 3rem;
+}
+.newborn_l1,
+.newborn_l2,
+.newborn_l3,
+.newborn_l4,
+.newborn_l5,
+.kids_l1,
+.kids_l2,
+.kids_l3,
+.kids_l4,
+.kids_l5,
+.teen_l1,
+.teen_l2,
+.teen_l3,
+.teen_l4,
+.teen_l5,
+.adult_l1,
+.adult_l2,
+.adult_l3,
+.adult_l4,
+.adult_l5{
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(220, 215, 229) ;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    line-height: 3;
+    border-bottom: 0;
+}
+.newborn_b,
+.teen_b,
+.kids_b,
+.adult_b{
+    background-color: rgb(255, 255, 255);
+    height: 6rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.newborn_btn,
+.teen_btn,
+.kids_btn,
+.adult_btn{
+    height: 2.5rem;
+    width: 8rem;
+    display: flex;
+    background-color: black;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.newborn:hover .newborn_d1, 
+.newborn:hover .newborn_d2,
+.newborn:hover .newborn_list,
+.newborn:hover .newborn_l1,
+.newborn:hover .newborn_l2,
+.newborn:hover .newborn_l3,
+.newborn:hover .newborn_l4,
+.newborn:hover .newborn_l5,
+.newborn:hover .newborn_b,
+.kids:hover .kids_d1,
+.kids:hover .kids_d2,
+.kids:hover .kids_list,
+.kids:hover .kids_l1,
+.kids:hover .kids_l2,
+.kids:hover .kids_l3,
+.kids:hover .kids_l4,
+.kids:hover .kids_l5,
+.kids:hover .kids_b,
+.teen:hover .teen_d1,
+.teen:hover .teen_d2,
+.teen:hover .teen_list,
+.teen:hover .teen_l1,
+.teen:hover .teen_l2,
+.teen:hover .teen_l3,
+.teen:hover .teen_l4,
+.teen:hover .teen_l5,
+.teen:hover .teen_b,
+.adult:hover .adult_d1,
+.adult:hover .adult_d2,
+.adult:hover .adult_l1,
+.adult:hover .adult_l2,
+.adult:hover .adult_l3,
+.adult:hover .adult_l4,
+.adult:hover .adult_l5,
+.adult:hover .adult_list,
+.adult:hover .adult_b{
+    background-color:rgb(197, 210, 212) ;
+}
+.newborn:hover,
+.kids:hover,
+.teen:hover,
+.adult:hover{
+    background-color: rgb(255, 255, 255);
+    margin-top: 4rem;
+    cursor: pointer;
+}
+.newborn:hover .newborn_btn,
+.kids:hover .kids_btn,
+.teen:hover .teen_btn,
+.adult:hover .adult_btn{
+    background-color: aqua;
+}
+
+.teen_n2{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 3.9rem;
+}
+.newborn:hover .newborn_name,
+.kids:hover .kids_name,
+.teen:hover .teen_name,
+.adult:hover .adult_name{
+    color: black;
+}
+.newborn:hover .newborn_b{
+    margin-bottom: -3rem;
+}

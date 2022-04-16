@@ -1,0 +1,405 @@
+.page{
+    background-color: rgb(33, 35, 49);
+    width: 100vw;
+    text-align: center;
+    margin-left: -2rem;
+}
+.contain{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+}
+.infor,
+.post,
+.feedback,
+.feed{
+    width: 13vw;
+    margin: auto 1vw;
+}
+.infor,
+.post{
+    color: rgb(255,255,255);
+    text-align: left;
+    height: 55rem;
+}
+.desc{
+
+}
+.name{
+    margin-top: 3.2rem;
+    display: flex;
+}
+.name_name{
+    font-size: 20.4px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.926;
+    text-align: left;
+    -moz-transform: matrix( 1.88709763527398,0,0,1.89574022526236,0,0);
+    -webkit-transform: matrix( 1.88709763527398,0,0,1.89574022526236,0,0);
+    -ms-transform: matrix( 1.88709763527398,0,0,1.89574022526236,0,0);
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.logo{
+    margin-top: rem;
+}
+.detail{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgba(153, 169, 181, 0.749);
+    margin-top:3rem;
+}
+.contact{
+    margin-top: 3rem;
+}
+.title{
+    font-size: 19px;
+    font-family: "Montserrat";
+    color: rgb(254, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.add{
+    margin-top: 2rem;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(153, 169, 181);
+    height: 10rem;
+    border-bottom: 1px dashed;
+}
+.icon_add{
+    margin-top: -0.3rem;
+    margin-right: 0.5rem;
+}
+.address{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.phone{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 2;
+}
+.phone_num{
+    margin-left: 0.5rem;
+}
+.fax{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 1.8;
+}
+.fax_num{
+    margin-left: 0.5rem;
+}
+.email{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 1.7 ;
+}
+.email_num{
+    margin-left: 0.5rem;
+}
+.icon_email{
+    margin-right: 0.5rem;
+}
+.web{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 1.7 ;
+}
+.icon_web{
+    margin-right: 0.5rem;
+}
+.web_num{
+    margin-left: 0.5rem;
+}
+.post,
+.feedback,
+.feed{
+    margin-top: 6rem;
+    text-align: left;
+}
+.post_1,
+.feedback_1,
+.feed_1{
+    height: 25rem;
+}
+.post_title,
+.feedback_title,
+.feed_title{
+    font-size: 19px;
+    font-family: "Montserrat";
+    color: rgb(254, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.post_title_1{
+    margin-top: 3rem;
+}
+.post_title_1,
+.post_title_2,
+.post_title_3{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.post_avatar{
+    height: 4rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.post_text{
+    margin-left: 1rem;
+}
+.post_text_1{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    line-height: 1.563;
+}
+.post_text_2{
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.text_2_1{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: aquamarine
+}
+.post_title_1,
+.post_title_2{
+    border-bottom: 1px dashed;
+    border-color: rgb(153, 169, 181);
+}
+.post_2_list{
+    margin-top: 2rem;
+}
+.post_l,
+.post_l_{
+    display: flex;
+    height: 2.65rem;
+}
+.post_l{
+    border-bottom: 1px dashed;
+    border-color:rgb(153, 169, 181);
+}
+.post_text_3{
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    line-height: 2.6;
+}
+.point{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.post_l:hover .post_text_3{
+    color: aqua;
+}
+.post_l:hover .point{
+    background-color: antiquewhite;
+}
+.feedback_name{
+    height: 2.5rem;
+    margin-top: 3rem;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    border: 0.5px  solid;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(73, 74, 89);
+}
+.icon_person{
+    position: absolute;
+    margin-top: 3.5rem;
+    color:rgb(153, 169, 181);
+    margin-left: 15rem;
+}
+.icon_email{
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: -2.3rem;
+    color: rgb(153, 169, 181);
+}
+.feedback_email{
+    height: 2.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    border: 0.5px  solid;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(73, 74, 89);
+}
+.feedback_message{
+    height: 7rem;
+    margin-top: 1rem;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    border: 0.5px  solid;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(73, 74, 89);
+}
+.feedback_name:focus,
+.feedback_email:focus,
+.feedback_message:focus{
+    border:1px solid aqua;
+    outline:none !important
+}
+.feedback_btn{
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(57, 64, 80);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(153, 169, 181);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.feedback_list{
+    margin-top:3rem;
+}
+.fb_l1,
+.fb_l2,
+.feed_l1,
+.feed_l2,
+.feed_l3{
+    display: flex;
+}
+.fb_l2,
+.feed_l2{
+    margin-top: 0.5vw;
+}
+.fb_l1_1,
+.fb_l1_2,
+.fb_l1_3,
+.feed_l1_1,
+.feed_l1_2,
+.feed_l1_3{
+    height: 4vw;
+    width: 4vw;
+    background-color: aliceblue;
+}
+.fb_l1_2,
+.feed_l1_2{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.fb_point{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.fb_point1,
+.fb_point2,
+.fb_point3{
+    height:1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.fb_point2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.fb_point1:hover,
+.fb_point2:hover,
+.fb_point3:hover{
+    background-color: aqua;
+}
+.feed_l2{
+    margin-bottom: 0.5vw;
+}
+.feed_list{
+    margin-top: 3rem;
+}
+.feed_text_1{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(153, 169, 181);
+    margin-top: 3rem;
+}
+.feed_email{
+    height: 2.5rem;
+    width: 100%;
+    background-color: black;
+    padding-left: 2rem;
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(73, 74, 89);
+    border: 1px solid rgb(153, 169, 181);
+}
+.feed_enter_email{
+    display: flex;
+    margin-top: 3rem;
+}
+.feed_icon{
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    background-color: black;
+    color: rgb(153, 169, 181);
+}
+.feed_text_2{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 188, 212);
+    margin-top: 1.3rem;
+}
+.footer{
+    background-color: rgb(24, 24, 40);
+    box-shadow: inset 0px 1px 0px 0px rgba(57, 64, 80, 0.75);
+    height: 8rem;
+    color:white;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.contain_footer{
+    margin: auto;
+    background-color: rgb(24, 24, 40);
+}
+.ft_1{
+    width: 15vw;
+    text-align: left;
+    display: flex;
+}
+.ft_text_2{
+    color: aqua;
+    margin-left: 0.5rem;
+}
+.ft_2{
+    display: flex;
+    text-align: center;
+    width: 30vw;
+}
+.ft_2_1,
+.ft_2_2,
+.ft_2_3,
+.ft_2_4{
+    margin: auto;
+}
+.ft_3{
+    width: 15vw;
+    text-align: right;
+}
+  

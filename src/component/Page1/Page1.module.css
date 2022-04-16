@@ -1,0 +1,130 @@
+.page1 {
+  background-color: rgb(44, 46, 61);
+  margin-left: -2rem;
+  width: 100vw;
+  height: 959px;
+}
+.contain{
+  width: 60vw;
+  margin: auto;
+}
+.header{
+  display: flex;
+  align-items: center;
+}
+.header_logo{
+  display: flex;
+  margin-top: 1rem;
+}
+.logo{
+  height: 2rem;
+  width: 2rem;
+}
+.text_logo {
+  font-size: 27px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.852;
+  text-align: left;
+}
+.taskbar,
+.menu{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.home,
+.pages,
+.blog,
+.portfolios,
+.shop,
+.features,
+.element{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(153, 169, 181);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3.571;
+    margin-left: 2rem;
+}
+.pages{
+  padding: 0 1rem 0 1rem;
+}
+.pages:hover{
+  border: solid;
+}
+.home:hover,
+.pages:hover,
+.blog:hover,
+.portfolios:hover,
+.shop:hover,
+.features:hover,
+.element:hover{
+  cursor: pointer;
+  color: aqua;
+}
+.icon_search,
+.icon_cart{
+  margin-left: 1rem;
+}
+.main{
+text-align: center;
+}
+.icon_list{
+  height: 8rem !important;
+  width: 8rem !important;
+  color: rgb(0, 188, 212);
+  text-transform: uppercase;
+  text-align: center;
+  margin:8rem auto 0 auto;
+}
+.main_title{
+  font-size: 70px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 0.714;
+  margin-top: 3rem;
+}
+.main_text{
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.542;
+  margin-top: 3rem;
+}
+.button{
+  margin-top: 6rem;
+  
+}
+.bt1,
+.bt2{
+  color: aqua;
+  padding: 0.5rem 2rem;
+  border: solid;
+  border-radius: 1.5rem;
+  border-color: aqua;
+  background-color:rgb(44, 46, 61) ;
+}
+.bt1{
+  margin-right: 1rem;
+}
+.bt2{
+  margin-left: 1rem;
+}
+.bt1:hover,
+.bt2:hover{
+  border-color: aliceblue;
+  color: aliceblue;
+  cursor: pointer;
+}
+.icon_radio{
+  margin-top: 10rem;
+}
+.radio{
+  width: 1.5rem;
+  height: 1.5rem;
+}

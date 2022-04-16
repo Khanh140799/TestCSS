@@ -1,0 +1,214 @@
+.page{
+    width: 100vw;
+    margin-left:-2rem;
+    background-color: rgb(0,0,0);
+}
+.contain{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+.product1{
+    display: flex;
+}
+.p1_tiny{
+    background-color: rgb(44, 46, 61);
+    width: 14vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 4rem;
+    border-radius: 7vw 7vw 0 0;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.tiny_price,
+.small_price,
+.medium_price,
+.large_price{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin: 2rem auto 0 auto;
+}
+.tiny_price{
+    background-color: aqua;
+    border-color: aquamarine;
+    border-style: solid;
+    border-width: 0.5rem;
+}
+.small_price{
+    background-color: violet;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color:darkmagenta;
+}
+.medium_price{
+    background-color: palevioletred;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: deeppink;
+}
+.large_price{
+    background-color: orange;
+    border-style: solid;
+    border-width: 0.5rem;
+    border-color: coral;
+}
+.p1_p1{
+    font-size: 50px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    text-align: center;
+}
+.p1_p2{
+    font-size: 24px;
+    font-family: "SourceSansPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.542;
+    text-align: center;
+    margin-top: -3rem;
+}
+.p1_size{
+    height: 5rem;
+    background-color: rgb(57, 61, 80);
+    align-items: center;
+    line-height: 3.5;
+    margin-top: 2rem;
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb(0, 188, 212);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.p1_text{
+    height: 5rem;
+    text-align: center;
+    background-color: rgb(49, 52, 69);
+}
+.p1_t1{
+    font-size: 24px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    line-height: 1.542;
+    text-align: center;
+    line-height: 2.5;
+}
+.p1_t2{
+    font-size: 14px;
+    font-family: "SourceSansPro";
+    color: rgb(95, 114, 127);
+    text-align: center;
+}
+
+.tiny_list,
+.small_list,
+.medium_list,
+.large_list{
+    background-color: rgb(44, 46, 61);
+    text-align: center;
+    height: 12.5rem;
+}
+.tiny_l1,
+.tiny_l2,
+.tiny_l3,
+.tiny_l4,
+.tiny_l5,
+.small_l1,
+.small_l2,
+.small_l3,
+.small_l4,
+.small_l5,
+.medium_l1,
+.medium_l2,
+.medium_l3,
+.medium_l4,
+.medium_l5,
+.large_l1,
+.large_l2,
+.large_l3,
+.large_l4,
+.large_l5{
+    display: flex;
+    height: 2.5rem;  
+    font-size: 16px;
+    font-family: "SourceSansPro";
+    color: rgb(153, 169, 181);
+    line-height: 1.75;
+    justify-content: center;
+}
+.tiny_l1,
+.small_l1,
+.medium_l1,
+.large_l1{
+    margin-top: 1rem;
+}
+.tiny_l1_check,
+.tiny_l2_check{
+    color: aqua;
+}
+.small_l1_check,
+.small_l2_check,
+.small_l3_check{
+    color:violet
+}
+.medium_l1_check,
+.medium_l2_check,
+.medium_l3_check,
+.medium_l4_check{
+    color:pink
+}
+.large_l1_check,
+.large_l2_check,
+.large_l3_check,
+.large_l4_check,
+.large_l5_check{
+    color:orange
+}
+.tiny_l3,
+.tiny_l4,
+.tiny_l5,
+.small_l4,
+.small_l5,
+.medium_l5{
+    text-decoration: line-through;
+} 
+.btn{
+    padding: 0.5rem 1.5rem;
+    margin:2rem auto;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(60, 57, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 188, 212);
+    background-color: rgb(153, 169, 181);
+    border-radius: 1.5rem;
+}
+
+.large_new{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color:black;
+    margin-left :7rem;
+    color: white;
+    text-align: center;
+    line-height: 3;
+}
+.p1_tiny:hover .btn{
+    background-color: azure;
+    color: black;
+}
+.p1_tiny:hover .tiny_list,
+.p1_tiny:hover .small_list,
+.p1_tiny:hover .medium_list,
+.p1_tiny:hover .large_list{
+    background-color: rgb(57, 61, 80);
+}
+.p1_tiny:hover{
+    background-color: rgb(57, 61, 80);
+}
